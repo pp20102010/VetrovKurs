@@ -8,5 +8,5 @@ fun main() {
     print("Текущую цену за литр топлива(в рублях): ")
     val price = readln().toFloat()
     val fuel = distance/100*consumption
-    println("Для поездки необходимо %.2f литров топлива (на сумму %.2f руб.)".format( fuel, fuel*price ))
+    println("Для поездки необходимо %.2fл. топлива (на сумму %.2fруб.)".format( fuel, fuel*price ))
 }
